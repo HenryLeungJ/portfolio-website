@@ -1,0 +1,31 @@
+.calm-blue {
+    background-color: #9BBEC8;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'DM Serif Text', serif;
+    letter-spacing: 0.1rem;
+}
+
+span.span-hero {
+    color: #164863;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Noto Serif Display', serif;
+}
+
+.sauder, .web-icon {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+}
+
+@media(min-width: 992px){
+    .skills {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+    }   
+}
