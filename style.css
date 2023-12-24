@@ -27,6 +27,14 @@ p {
     font-family: 'Noto Serif Display', serif;
 }
 
+.container {
+    background-color: white;
+}
+
+.first-skill, .second-skill, .white {
+    background-color: white;
+}
+
 .sauder {
     object-fit: contain;
     width: 80%;
